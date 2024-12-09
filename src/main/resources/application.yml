@@ -1,0 +1,13 @@
+quarkus:
+  profile: local
+  http:
+    root-path: "/client"
+    port: 9000
+  banner:
+    enabled: true
+    path: "banner.txt"
+  application:
+    name: "centralized-configuration-client"
+  spring-cloud-config:
+    enabled: true
+    url: http://localhost:8888/config
