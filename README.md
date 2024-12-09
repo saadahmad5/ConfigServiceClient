@@ -18,6 +18,7 @@ You can run your application in dev mode that enables live coding using:
 ```
 
 > **_NOTE:_**  Quarkus will start using the `local` profile as I've specified it in `quarkus.profile` property
+![Screenshot](readme_quarkus-profile.png)
 
 ## What to do next?
 
